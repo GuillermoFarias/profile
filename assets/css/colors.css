@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #00b2aa;
+}
+
+.atendia-color {
+    color: #00b2aa;
+}
+
+.bg-atendia-color {
+    background-color: #00b2aa;
+}
+
+.border-atendia-color {
+    border-color: #00b2aa;
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.text-primary {
+    color: var(--color-primary);
+}

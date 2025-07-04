@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'MintSans';
+    src: url('@/assets/fonts/MintSansRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MintSansLight';
+    src: url('@/assets/fonts/MintSansExtraLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MintSansBold';
+    src: url('@/assets/fonts/MintSansBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.atendia-font {
+    font-family: 'MintSans', cursive;
+}
+
+.atendia-font-light {
+    font-family: 'MintSans', cursive;
+    font-weight: 300;
+}
+
+.atendia-font-bold {
+    font-family: 'MintSansBold', cursive;
+}

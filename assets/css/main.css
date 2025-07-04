@@ -1,0 +1,26 @@
+@import "../css/fonts.css";
+@import "../css/colors.css";
+@import "tailwindcss";
+@import "preline/variants.css";
+@source "../../node_modules/preline/dist/*.js";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Adds pointer cursor to buttons */
+@layer base {
+
+    button:not(:disabled),
+    [role="button"]:not(:disabled) {
+        cursor: pointer;
+    }
+}
+
+/* Defaults hover styles on all devices */
+@custom-variant hover (&:hover);
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* toda la pagina con tamaño 13 de fuente */
+@layer base {
+    html {
+        font-size: 16px;
+    }
+}
