@@ -1,12 +1,6 @@
 <script setup>
 const isDark = useState("isDark");
 
-useHead({
-  titleTemplate: (titleChunk) => {
-    return `Guillermo Farías` + (titleChunk ? ` - ${titleChunk}` : "");
-  },
-});
-
 const updateIsDark = () => {
   isDark.value = document.documentElement.classList.contains("dark");
 };
