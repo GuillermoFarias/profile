@@ -20,7 +20,7 @@ export default defineNuxtConfig({
       ],
       title: 'Guillermo Farías - Personal Website',
       meta: [
-        { name: 'description', content: 'Senior Software Engineer with a passion for building scalable web applications.' },
+        { name: 'description', content: 'Senior Software Engineer with +8 years of experience' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { charset: 'utf-8' }
       ],
