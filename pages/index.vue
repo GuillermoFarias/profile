@@ -25,14 +25,15 @@ definePageMeta({
 </script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap");
-.albert-sans-<uniquifier > {
+
+.albert-sans-<uniquifier> {
   font-family: "Albert Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
 
-.dancing-script-<uniquifier > {
+.dancing-script-<uniquifier> {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -47,22 +48,15 @@ definePageMeta({
         <!-- Profile -->
         <div class="flex items-center gap-x-3">
           <div class="shrink-0">
-            <NuxtImg
-              class="shrink-0 size-20 rounded-full border border-gray-800 dark:border-neutral-700"
-              src="images/avatar2.png"
-              alt="Guillermo Farías"
-            />
+            <NuxtImg class="shrink-0 size-20 rounded-full border border-gray-800 dark:border-neutral-700"
+              src="images/avatar2.png" alt="Guillermo Farías" />
           </div>
 
           <div class="grow">
-            <h1
-              class="text-2xl font-medium text-gray-800 dark:text-neutral-200 dancing-script-700"
-            >
+            <h1 class="text-2xl font-medium text-gray-800 dark:text-neutral-200 dancing-script-700">
               Guillermo Farías
             </h1>
-            <p
-              class="text-xl text-gray-600 dark:text-neutral-400 dark:gradient-dark"
-            >
+            <p class="text-xl text-gray-600 dark:text-neutral-400 dark:gradient-dark">
               Senior Software Engineer
             </p>
           </div>
@@ -72,54 +66,41 @@ definePageMeta({
         <!-- About -->
         <div class="mt-8">
           <p class="text-sm text-gray-600 dark:text-neutral-400">
-            Especialista en backend con más de 8 años de experiencia, amigo del
+            Especialista en backend con más de 10 años de experiencia, amigo del
             frontend y entusiasta del mundo DevOps. Me apasiona crear soluciones
             que realmente aporten valor y trabajar en equipos donde la
             colaboración marca la diferencia.
           </p>
 
           <p class="mt-3 text-sm text-gray-600 dark:text-neutral-400">
-            Trabajo de forma remota en SimpliRoute, empresa Chilena de software
-            logístico y optimización de última milla, con presencia en 26 países
-            y más de 900 clientes. Soy parte del equipo de integraciones, donde
-            diseño y desarrollo soluciones que conectan la plataforma con
-            sistemas ERP, WMS, e-commerce y CRM como Shopify, SAP B1, Tienda
-            Nube, Vtex, entre otros.
+            Trabajo de forma remota en SimpliRoute, empresa de software
+            logístico con presencia global. Me especializo en el desarrollo
+            de integraciones backend, conectando plataformas heterogéneas
+            (ERPs, WMS, e-commerce) para optimizar procesos críticos de
+            negocio.
           </p>
 
           <ul class="mt-5 flex flex-col gap-y-3">
             <li class="flex items-center gap-x-2.5">
-              <IconMail
-                class="shrink-0 size-5 text-gray-800 dark:text-neutral-200"
-              />
-              <a
-                class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
-                href="mailto:gfariaspavez@gmail.com"
-              >
+              <IconMail class="shrink-0 size-5 text-gray-800 dark:text-neutral-200" />
+              <a class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                href="mailto:gfariaspavez@gmail.com">
                 gfariaspavez@gmail.com
               </a>
             </li>
 
             <li class="flex items-center gap-x-2.5">
-              <IconBrandLinkedin
-                class="shrink-0 size-5 text-gray-800 dark:text-neutral-200"
-              />
-              <a
-                class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
-                href="https://www.linkedin.com/in/guillermofarias/"
-              >
+              <IconBrandLinkedin class="shrink-0 size-5 text-gray-800 dark:text-neutral-200" />
+              <a class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                href="https://www.linkedin.com/in/guillermofarias/">
                 @guillermofarias
               </a>
             </li>
 
             <li class="flex items-center gap-x-2.5">
-              <IconBrandGithub
-                class="shrink-0 size-5 text-gray-800 dark:text-neutral-200"
-              />
-              <a
-                class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
-                href="https://github.com/guillermofarias"
-              >
+              <IconBrandGithub class="shrink-0 size-5 text-gray-800 dark:text-neutral-200" />
+              <a class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                href="https://github.com/guillermofarias">
                 @guillermofarias
               </a>
             </li>
@@ -134,38 +115,29 @@ definePageMeta({
           </h2>
 
           <!-- List -->
-          <div
-            class="space-y-3 border-t border-gray-200 dark:border-neutral-700 pt-5"
-          >
+          <div class="space-y-3 border-t border-gray-200 dark:border-neutral-700 pt-5">
             <dl class="flex flex-col sm:flex-row gap-1">
               <dt class="min-w-40">
-                <span class="block text-sm text-gray-500 dark:text-neutral-500"
-                  >Backend</span
-                >
+                <span class="block text-sm text-gray-500 dark:text-neutral-500">Backend</span>
               </dt>
               <dd>
                 <ul>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     <IconBrandPython class="shrink-0 size-5 me-1" />
                     Python
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     <IconBrandPhp class="shrink-0 size-5 me-1" />
                     PHP
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     <IconBrandJavascript class="shrink-0 size-5 me-1" />
                     JavaScript
                   </li>
-                  <li
-                    class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     <IconTerminal2 class="shrink-0 size-5 me-1" />
                     Bash
                   </li>
@@ -175,33 +147,26 @@ definePageMeta({
 
             <dl class="flex flex-col sm:flex-row gap-1">
               <dt class="min-w-40">
-                <span class="block text-sm text-gray-500 dark:text-neutral-500"
-                  >Frontend</span
-                >
+                <span class="block text-sm text-gray-500 dark:text-neutral-500">Frontend</span>
               </dt>
               <dd>
                 <ul>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     <IconBrandVue class="shrink-0 size-5 me-1" />
                     Vue
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     <IconBrandTailwind class="shrink-0 size-5 me-1" />
                     Tailwind CSS
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     <IconBrandReact class="shrink-0 size-5 me-1" />
                     React
                   </li>
-                  <li
-                    class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     <IconBrandNuxt class="shrink-0 size-5 me-1" />
                     Nuxt
                   </li>
@@ -211,36 +176,23 @@ definePageMeta({
 
             <dl class="flex flex-col sm:flex-row gap-1">
               <dt class="min-w-40">
-                <span class="block text-sm text-gray-500 dark:text-neutral-500"
-                  >Cloud</span
-                >
+                <span class="block text-sm text-gray-500 dark:text-neutral-500">Cloud</span>
               </dt>
               <dd>
                 <ul>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
-                    <Icon
-                      name="bx:bxl-google-cloud"
-                      class="shrink-0 text-[20px] me-1 text-gray"
-                    />
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="bx:bxl-google-cloud" class="shrink-0 text-[20px] me-1 text-gray" />
                     GCP
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
-                    <IconBrandAzure
-                      class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200"
-                    />
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconBrandAzure class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200" />
                     Azure
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
-                    <Icon
-                      name="mdi:aws"
-                      class="shrink-0 text-[20px] me-1 text-gray"
-                    />
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="mdi:aws" class="shrink-0 text-[20px] me-1 text-gray" />
                     AWS
                   </li>
                 </ul>
@@ -249,45 +201,27 @@ definePageMeta({
 
             <dl class="flex flex-col sm:flex-row gap-1">
               <dt class="min-w-40">
-                <span class="block text-sm text-gray-500 dark:text-neutral-500"
-                  >Automation</span
-                >
+                <span class="block text-sm text-gray-500 dark:text-neutral-500">Automation</span>
               </dt>
               <dd>
                 <ul>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
-                    <Icon
-                      name="simple-icons:argo"
-                      class="shrink-0 text-[20px] me-1 text-gray"
-                    />
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="simple-icons:argo" class="shrink-0 text-[20px] me-1 text-gray" />
                     Argo
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
-                    <Icon
-                      name="mdi:terraform"
-                      class="shrink-0 text-[20px] me-1 text-gray"
-                    />
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="mdi:terraform" class="shrink-0 text-[20px] me-1 text-gray" />
                     Terraform
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
-                    <Icon
-                      name="simple-icons:drone"
-                      class="shrink-0 text-[20px] me-1 text-gray"
-                    />
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="simple-icons:drone" class="shrink-0 text-[20px] me-1 text-gray" />
                     Drone
                   </li>
-                  <li
-                    class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
-                    <IconPlus
-                      class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200"
-                    />
+                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconPlus class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200" />
                     More
                   </li>
                 </ul>
@@ -295,28 +229,22 @@ definePageMeta({
               <dd>
                 <ul>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     Pipeline design
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     Workflow automation
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     continuous integration
                   </li>
                   <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     container orchestration
                   </li>
-                  <li
-                    class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
-                  >
+                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     Infrastructure as Code
                   </li>
                 </ul>
@@ -334,18 +262,14 @@ definePageMeta({
           </h2>
 
           <!-- Timeline -->
-          <div
-            class="space-y-3 border-t border-gray-200 dark:border-neutral-700 pt-5"
-          >
+          <div class="space-y-3 border-t border-gray-200 dark:border-neutral-700 pt-5">
             <!-- Item -->
             <div class="group relative flex gap-x-5">
               <!-- Icon -->
               <div
-                class="relative group-last:after:hidden after:absolute after:top-9 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700"
-              >
+                class="relative group-last:after:hidden after:absolute after:top-9 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
                 <span
-                  class="inline-flex items-center justify-center size-8 text-xs font-semibold rounded-full border border-gray-800 text-gray-800 dark:border-neutral-200 dark:text-white"
-                >
+                  class="inline-flex items-center justify-center size-8 text-xs font-semibold rounded-full border border-gray-800 text-gray-800 dark:border-neutral-200 dark:text-white">
                   SR
                 </span>
               </div>
@@ -357,9 +281,7 @@ definePageMeta({
                   2024 - Present
                 </h3>
 
-                <p
-                  class="font-semibold text-sm text-gray-800 dark:text-neutral-200"
-                >
+                <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
                   Senior Software Engineer at SimpliRoute
                 </p>
 
@@ -370,49 +292,39 @@ definePageMeta({
                 </p>
 
                 <p class="mt-2 text-sm text-gray-600 dark:text-neutral-400">
-                  Formo parte del equipo de integraciones, donde diseñamos
-                  soluciones que conectan la plataforma con sistemas externos.
-                  Nos enfocamos en entender los procesos de cada cliente para
-                  lograr integraciones eficientes y personalizadas.
+                  Desempeño un rol técnico de cara al cliente, liderando
+                  reuniones para crear y refinar flujos de trabajo complejos.
+                  Defino arquitecturas de integración de alta demanda que
+                  soportan la operación crítica de grandes corporaciones.
                 </p>
                 <p class="mt-2 text-sm text-gray-600 dark:text-neutral-400">
-                  Algunos proyectos destacados:
+                  Experiencia destacada con clientes:
                 </p>
 
                 <ul class="list-disc ms-6 mt-2 space-y-1.5">
                   <li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
-                    Desarrollo de integraciones con plataformas de e-commerce
-                    como VTEX.
+                    Implementación de ecosistemas integrados para British
+                    American Tobacco (BAT), Ransa y Walmart Centroamérica.
                   </li>
                   <li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
-                    Implementación de integraciones con clientes de alto volumen
-                    como Walmart Centroamérica.
+                    Diseño de soluciones escalables para entornos VTEX y de
+                    alta transaccionalidad.
                   </li>
                 </ul>
                 <div class="mt-3">
                   <!-- Card -->
-                  <a
-                    class="block border border-gray-200 rounded-lg hover:shadow-2xs focus:outline-hidden dark:border-neutral-700"
-                    href="https://www.youtube.com/watch?v=VaZc1TE7YAw&t=8s&ab_channel=SimpliRoute"
-                  >
+                  <a class="block border border-gray-200 rounded-lg hover:shadow-2xs focus:outline-hidden dark:border-neutral-700"
+                    href="https://www.youtube.com/watch?v=VaZc1TE7YAw&t=8s&ab_channel=SimpliRoute">
                     <div class="relative flex items-center overflow-hidden">
-                      <img
-                        class="w-32 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
-                        src="https://img.youtube.com/vi/VaZc1TE7YAw/maxresdefault.jpg
-"
-                        alt="Blog Image"
-                      />
+                      <img class="w-32 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg" src="https://img.youtube.com/vi/VaZc1TE7YAw/maxresdefault.jpg
+" alt="Blog Image" />
 
                       <div class="grow p-4 ms-32 sm:ms-48">
                         <div class="min-h-24 flex flex-col justify-center">
-                          <h3
-                            class="font-semibold text-sm text-gray-800 dark:text-neutral-300"
-                          >
+                          <h3 class="font-semibold text-sm text-gray-800 dark:text-neutral-300">
                             Integraciones: VTEX
                           </h3>
-                          <p
-                            class="mt-1 text-sm text-gray-500 dark:text-neutral-500"
-                          >
+                          <p class="mt-1 text-sm text-gray-500 dark:text-neutral-500">
                             Nos integramos con tu e-commerce para que la
                             información de tus ventas y de tus envíos, esté toda
                             en un mismo lugar.
@@ -432,11 +344,9 @@ definePageMeta({
             <div class="group relative flex gap-x-5">
               <!-- Icon -->
               <div
-                class="relative group-last:after:hidden after:absolute after:top-9 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700"
-              >
+                class="relative group-last:after:hidden after:absolute after:top-9 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
                 <span
-                  class="inline-flex items-center justify-center size-8 text-xs font-semibold rounded-full border border-gray-800 text-gray-800 dark:border-neutral-200 dark:text-white"
-                >
+                  class="inline-flex items-center justify-center size-8 text-xs font-semibold rounded-full border border-gray-800 text-gray-800 dark:border-neutral-200 dark:text-white">
                   LM
                 </span>
               </div>
@@ -448,9 +358,7 @@ definePageMeta({
                   2022 - 2023
                 </h3>
 
-                <p
-                  class="font-semibold text-sm text-gray-800 dark:text-neutral-200"
-                >
+                <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
                   Senior Software Engineer at Linio MX
                 </p>
 
@@ -487,11 +395,9 @@ definePageMeta({
             <div class="group relative flex gap-x-5">
               <!-- Icon -->
               <div
-                class="relative group-last:after:hidden after:absolute after:top-9 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700"
-              >
+                class="relative group-last:after:hidden after:absolute after:top-9 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
                 <span
-                  class="inline-flex items-center justify-center size-8 text-xs font-semibold rounded-full border border-gray-800 text-gray-800 dark:border-neutral-200 dark:text-white"
-                >
+                  class="inline-flex items-center justify-center size-8 text-xs font-semibold rounded-full border border-gray-800 text-gray-800 dark:border-neutral-200 dark:text-white">
                   LT
                 </span>
               </div>
@@ -503,9 +409,7 @@ definePageMeta({
                   2019 - 2022
                 </h3>
 
-                <p
-                  class="font-semibold text-sm text-gray-800 dark:text-neutral-200"
-                >
+                <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
                   Software Engineer at Lemontech
                 </p>
 
@@ -518,12 +422,8 @@ definePageMeta({
 
                 <p class="mt-2 text-sm text-gray-600 dark:text-neutral-400">
                   Miembro del equipo de desarrollo de la plataforma
-                  <a
-                    class="hover:underline"
-                    href="https://www.timebillingapp.com/"
-                  >
-                    TheTimeBilling </a
-                  >. Participé en la implementación de mejoras y correcciones de
+                  <a class="hover:underline" href="https://www.timebillingapp.com/">
+                    TheTimeBilling </a>. Participé en la implementación de mejoras y correcciones de
                   la plataforma.
                 </p>
               </div>
@@ -535,11 +435,9 @@ definePageMeta({
             <div class="group relative flex gap-x-5">
               <!-- Icon -->
               <div
-                class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700"
-              >
+                class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
                 <span
-                  class="inline-flex items-center justify-center size-8 text-xs font-semibold rounded-full border border-gray-800 text-gray-800 dark:border-neutral-200 dark:text-white"
-                >
+                  class="inline-flex items-center justify-center size-8 text-xs font-semibold rounded-full border border-gray-800 text-gray-800 dark:border-neutral-200 dark:text-white">
                   IN
                 </span>
               </div>
@@ -551,9 +449,7 @@ definePageMeta({
                   2016 - 2018
                 </h3>
 
-                <p
-                  class="font-semibold text-sm text-gray-800 dark:text-neutral-200"
-                >
+                <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
                   Software Engineer at Inpact
                 </p>
 
@@ -584,22 +480,14 @@ definePageMeta({
 
           <!-- Grid -->
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div
-              class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700"
-            >
-              <NuxtImg
-                class="shrink-0 size-8"
-                src="images/inacap.png"
-                alt="Inacap"
-              />
+            <div class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700">
+              <NuxtImg class="shrink-0 size-8" src="images/inacap.png" alt="Inacap" />
 
               <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
                 2013 - 2016
               </h3>
 
-              <p
-                class="font-semibold text-sm text-gray-800 dark:text-neutral-200"
-              >
+              <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
                 Ingeniería en Informática
               </p>
 
@@ -629,54 +517,30 @@ definePageMeta({
           <!-- List -->
           <ul class="flex flex-wrap items-center">
             <li class="inline-block pe-4 text-xs">
-              <a
-                class="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
-                href="https://github.com/guillermofarias"
-              >
+              <a class="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+                href="https://github.com/guillermofarias">
                 Github
               </a>
             </li>
             <li class="inline-block">
               <!-- Dark Mode -->
-              <button
-                type="button"
+              <button type="button"
                 class="hs-dark-mode hs-dark-mode-active:hidden relative flex justify-center items-center size-7 border border-gray-200 text-gray-500 rounded-full hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:border-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
-                data-hs-theme-click-value="dark"
-              >
+                data-hs-theme-click-value="dark">
                 <span class="sr-only">Dark</span>
-                <svg
-                  class="shrink-0 size-3.5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
+                <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
                   <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
                 </svg>
               </button>
-              <button
-                type="button"
+              <button type="button"
                 class="hs-dark-mode hs-dark-mode-active:flex hidden relative flex justify-center items-center size-7 border border-gray-200 text-gray-500 rounded-full hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:border-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
-                data-hs-theme-click-value="light"
-              >
+                data-hs-theme-click-value="light">
                 <span class="sr-only">Light</span>
-                <svg
-                  class="shrink-0 size-3.5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
+                <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
                   <circle cx="12" cy="12" r="4"></circle>
                   <path d="M12 2v2"></path>
                   <path d="M12 20v2"></path>
