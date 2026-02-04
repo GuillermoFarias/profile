@@ -84,7 +84,8 @@ const julianAge = new Date().getFullYear() - 2018;
                     </div>
                     <div
                         class="relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <NuxtImg src="/images/personal/moto.jpg" alt="Ruta" class="w-full h-32 md:h-40 object-cover" />
+                        <NuxtImg src="/images/personal/joaquin.png" alt="Ruta"
+                            class="w-full h-32 md:h-40 object-cover" />
                     </div>
                 </div>
             </section>

@@ -9,6 +9,7 @@ import {
     IconArrowLeft,
     IconMusic,
     IconHome,
+    IconBulb,
 } from "@tabler/icons-vue";
 
 definePageMeta({
@@ -165,6 +166,29 @@ definePageMeta({
                             <span>Rack:</span>
                             <span class="font-medium text-gray-800 dark:text-neutral-200 text-right">Hecho a mano
                                 (Plantas)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Iluminación -->
+                <div
+                    class="bg-white dark:bg-neutral-800 p-5 rounded-xl border border-gray-100 dark:border-neutral-700 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex items-center gap-3 mb-3 text-gray-800 dark:text-neutral-200">
+                        <IconBulb class="size-6" />
+                        <h2 class="font-semibold">Iluminación</h2>
+                    </div>
+                    <ul class="space-y-2">
+                        <li
+                            class="text-sm text-gray-600 dark:text-neutral-400 flex flex-col sm:flex-row sm:justify-between">
+                            <span>Barra de luz:</span>
+                            <span class="font-medium text-gray-800 dark:text-neutral-200 text-right">Xiaomi Mi Computer
+                                Monitor Light Bar</span>
+                        </li>
+                        <li
+                            class="text-sm text-gray-600 dark:text-neutral-400 flex flex-col sm:flex-row sm:justify-between">
+                            <span>Lámpara:</span>
+                            <span class="font-medium text-gray-800 dark:text-neutral-200 text-right">Tertial -
+                                Ikea</span>
                         </li>
                     </ul>
                 </div>
