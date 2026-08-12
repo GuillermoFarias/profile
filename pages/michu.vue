@@ -256,15 +256,9 @@ onUnmounted(() => clearInterval(clock));
         aprendí a quererte sin necesitarte cerca.”
       </blockquote>
 
-      <p class="sign">Siempre tuyo, tu Guille</p>
+      <p class="cursi">¿Qué cursi no?</p>
 
-      <div class="meta" :class="{ show: loaded }">
-        <span v-if="sceneLabel" class="chip">{{ sceneLabel }}</span>
-        <span v-if="weather && weather.temp !== null" class="chip">
-          {{ weather.temp }}°
-        </span>
-        <span v-if="chileTime" class="chip">{{ chileTime }} · Chile</span>
-      </div>
+      <p class="sign">Siempre tuyo, tu Guille</p>
     </main>
   </div>
 </template>
@@ -770,33 +764,17 @@ onUnmounted(() => clearInterval(clock));
   text-wrap: balance;
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
 }
+.cursi {
+  margin-top: 16px;
+  font-size: 15px;
+  font-style: italic;
+  opacity: 0.7;
+}
 .sign {
   margin-top: 18px;
   font-size: 14px;
   letter-spacing: 0.05em;
   opacity: 0.8;
-}
-
-.meta {
-  margin-top: 26px;
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 1s ease 0.4s;
-}
-.meta.show {
-  opacity: 1;
-}
-.chip {
-  font-size: 12px;
-  padding: 5px 12px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(6px);
-  letter-spacing: 0.02em;
 }
 
 /* Escenas de día → texto oscuro para contraste */
@@ -812,14 +790,6 @@ onUnmounted(() => clearInterval(clock));
 .s-day-snow .quote {
   text-shadow: 0 1px 12px rgba(255, 255, 255, 0.5);
 }
-.s-day-clear .chip,
-.s-day-cloudy .chip,
-.s-day-fog .chip,
-.s-day-snow .chip {
-  background: rgba(0, 0, 0, 0.08);
-  border-color: rgba(0, 0, 0, 0.12);
-}
-
 @media (min-width: 640px) {
   .quote {
     font-size: 19px;
