@@ -250,13 +250,13 @@ onUnmounted(() => clearInterval(clock));
         <div class="candle-light"></div>
       </div>
 
+      <p class="extranio">Te extraño tanto</p>
+
       <blockquote class="quote">
         “Mientras esta vela esté encendida, mi corazón aún está aprendiendo a
         soltarte. Cuando se apague, no será porque dejé de quererte, sino porque
         aprendí a quererte sin necesitarte cerca.”
       </blockquote>
-
-      <p class="cursi">¿Qué cursi no?</p>
 
       <p class="sign">Siempre tuyo, tu Guille</p>
     </main>
@@ -764,11 +764,11 @@ onUnmounted(() => clearInterval(clock));
   text-wrap: balance;
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
 }
-.cursi {
-  margin-top: 16px;
-  font-size: 15px;
+.extranio {
+  margin-bottom: 16px;
+  font-size: 18px;
   font-style: italic;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 .sign {
   margin-top: 18px;
