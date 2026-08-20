@@ -45,11 +45,11 @@ definePageMeta({
   <div class="bg-gray-50 dark:bg-neutral-900">
     <!-- ========== MAIN CONTENT ========== -->
     <main id="content">
-      <div class="w-full max-w-4xl mx-auto pt-10 px-4 sm:px-6 lg:px-8">
+      <div class="w-full max-w-4xl mx-auto pt-10 px-4 sm:px-6 lg:px-8 print:pt-4 print:px-2">
         <!-- Profile -->
         <div class="flex items-center gap-x-3">
           <div class="shrink-0">
-            <NuxtImg class="shrink-0 size-20 rounded-full border border-gray-800 dark:border-neutral-700"
+            <NuxtImg class="shrink-0 size-20 rounded-full border border-gray-800 dark:border-neutral-700 print:size-16"
               src="images/avatar2.png" alt="Guillermo Farías" />
           </div>
 
@@ -65,7 +65,7 @@ definePageMeta({
         <!-- End Profile -->
 
         <!-- About -->
-        <div class="mt-8">
+        <div class="mt-8 print:mt-4">
           <p class="text-sm text-gray-600 dark:text-neutral-400">
             Especialista en backend con más de 10 años de experiencia, amigo del
             frontend y entusiasta del mundo DevOps. Me apasiona crear soluciones
@@ -74,14 +74,14 @@ definePageMeta({
           </p>
 
           <p class="mt-3 text-sm text-gray-600 dark:text-neutral-400">
-            Trabajo de forma remota en SimpliRoute, empresa de software
+            Trabajo de forma remota en <a href="https://simpliroute.com" target="_blank" rel="noopener noreferrer">SimpliRoute</a>, empresa de software
             logístico con presencia global. Me especializo en el desarrollo
             de integraciones backend, conectando plataformas heterogéneas
             (ERPs, WMS, e-commerce) para optimizar procesos críticos de
             negocio.
           </p>
 
-          <div class="mt-4">
+          <div class="mt-4 print:hidden">
             <NuxtLink to="/developer"
               class="inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500">
               Conoce al humano detrás del código
@@ -89,7 +89,7 @@ definePageMeta({
             </NuxtLink>
           </div>
 
-          <ul class="mt-5 flex flex-col gap-y-3">
+          <ul class="mt-5 flex flex-col gap-y-3 print:flex-row print:gap-x-6 print:mt-2">
             <li class="flex items-center gap-x-2.5">
               <IconMail class="shrink-0 size-5 text-gray-800 dark:text-neutral-200" />
               <a class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
@@ -118,125 +118,131 @@ definePageMeta({
         <!-- End About -->
 
         <!-- Skills -->
-        <div class="my-11">
+        <div class="my-11 print:my-4">
           <h2 class="mb-2 font-medium text-gray-800 dark:text-neutral-200">
             Skills
           </h2>
 
           <!-- List -->
           <div class="space-y-3 border-t border-gray-200 dark:border-neutral-700 pt-5">
-            <dl class="flex flex-col sm:flex-row gap-1">
-              <dt class="min-w-40">
-                <span class="block text-sm text-gray-500 dark:text-neutral-500">Backend</span>
+            <dl
+              class="flex flex-col sm:flex-row gap-1 border-b border-gray-100 dark:border-neutral-800 pb-2 mb-2 print:border-none print:pb-0 print:mb-0">
+              <dt class="min-w-40 print:w-32 print:shrink-0">
+                <span
+                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Backend</span>
               </dt>
-              <dd>
-                <ul>
+              <dd class="print:grow">
+                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandPython class="shrink-0 size-5 me-1" />
+                    <IconBrandPython class="shrink-0 size-5 me-1 print:hidden" />
                     Python
                   </li>
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandPhp class="shrink-0 size-5 me-1" />
+                    <IconBrandPhp class="shrink-0 size-5 me-1 print:hidden" />
                     PHP
                   </li>
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandJavascript class="shrink-0 size-5 me-1" />
+                    <IconBrandJavascript class="shrink-0 size-5 me-1 print:hidden" />
                     JavaScript
                   </li>
                   <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconTerminal2 class="shrink-0 size-5 me-1" />
+                    <IconTerminal2 class="shrink-0 size-5 me-1 print:hidden" />
                     Bash
                   </li>
                 </ul>
               </dd>
             </dl>
 
-            <dl class="flex flex-col sm:flex-row gap-1">
-              <dt class="min-w-40">
-                <span class="block text-sm text-gray-500 dark:text-neutral-500">Frontend</span>
+            <dl
+              class="flex flex-col sm:flex-row gap-1 border-b border-gray-100 dark:border-neutral-800 pb-2 mb-2 print:border-none print:pb-0 print:mb-0">
+              <dt class="min-w-40 print:w-32 print:shrink-0">
+                <span
+                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Frontend</span>
               </dt>
-              <dd>
-                <ul>
+              <dd class="print:grow">
+                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandVue class="shrink-0 size-5 me-1" />
+                    <IconBrandVue class="shrink-0 size-5 me-1 print:hidden" />
                     Vue
                   </li>
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandTailwind class="shrink-0 size-5 me-1" />
+                    <IconBrandTailwind class="shrink-0 size-5 me-1 print:hidden" />
                     Tailwind CSS
                   </li>
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandReact class="shrink-0 size-5 me-1" />
+                    <IconBrandReact class="shrink-0 size-5 me-1 print:hidden" />
                     React
                   </li>
                   <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandNuxt class="shrink-0 size-5 me-1" />
+                    <IconBrandNuxt class="shrink-0 size-5 me-1 print:hidden" />
                     Nuxt
                   </li>
                 </ul>
               </dd>
             </dl>
 
-            <dl class="flex flex-col sm:flex-row gap-1">
-              <dt class="min-w-40">
-                <span class="block text-sm text-gray-500 dark:text-neutral-500">Cloud</span>
+            <dl
+              class="flex flex-col sm:flex-row gap-1 border-b border-gray-100 dark:border-neutral-800 pb-2 mb-2 print:border-none print:pb-0 print:mb-0">
+              <dt class="min-w-40 print:w-32 print:shrink-0">
+                <span
+                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Cloud</span>
               </dt>
-              <dd>
-                <ul>
+              <dd class="print:grow">
+                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <Icon name="bx:bxl-google-cloud" class="shrink-0 text-[20px] me-1 text-gray" />
+                    <Icon name="bx:bxl-google-cloud" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
                     GCP
                   </li>
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandAzure class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200" />
+                    <IconBrandAzure class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200 print:hidden" />
                     Azure
                   </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <Icon name="mdi:aws" class="shrink-0 text-[20px] me-1 text-gray" />
+                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="mdi:aws" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
                     AWS
                   </li>
                 </ul>
               </dd>
             </dl>
 
-            <dl class="flex flex-col sm:flex-row gap-1">
-              <dt class="min-w-40">
-                <span class="block text-sm text-gray-500 dark:text-neutral-500">Automation</span>
+            <dl class="flex flex-col sm:flex-row gap-1 print:border-none print:pb-0 print:mb-0">
+              <dt class="min-w-40 print:w-32 print:shrink-0">
+                <span
+                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Automation</span>
               </dt>
-              <dd>
-                <ul>
+              <dd class="print:grow">
+                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <Icon name="simple-icons:argo" class="shrink-0 text-[20px] me-1 text-gray" />
+                    <Icon name="simple-icons:argo" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
                     Argo
                   </li>
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <Icon name="mdi:terraform" class="shrink-0 text-[20px] me-1 text-gray" />
+                    <Icon name="mdi:terraform" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
                     Terraform
                   </li>
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <Icon name="simple-icons:drone" class="shrink-0 text-[20px] me-1 text-gray" />
+                    <Icon name="simple-icons:drone" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
                     Drone
                   </li>
                   <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconPlus class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200" />
+                    <IconPlus class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200 print:hidden" />
                     More
                   </li>
                 </ul>
               </dd>
-              <dd>
-                <ul>
+              <dd class="print:grow">
+                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
                   <li
                     class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
                     Pipeline design
@@ -265,7 +271,7 @@ definePageMeta({
         <!-- End Skills -->
 
         <!-- Work Experience -->
-        <div class="my-11">
+        <div class="my-11 print:my-4">
           <h2 class="mb-2 font-medium text-gray-800 dark:text-neutral-200">
             Work Experience
           </h2>
@@ -320,7 +326,7 @@ definePageMeta({
                     alta transaccionalidad.
                   </li>
                 </ul>
-                <div class="mt-3">
+                <div class="mt-3 print:hidden">
                   <!-- Card -->
                   <a class="block border border-gray-200 rounded-lg hover:shadow-2xs focus:outline-hidden dark:border-neutral-700"
                     href="https://www.youtube.com/watch?v=VaZc1TE7YAw&t=8s&ab_channel=SimpliRoute">
@@ -482,7 +488,7 @@ definePageMeta({
         <!-- End Work Experience -->
 
         <!-- Education -->
-        <div class="mt-10 sm:mt-14 pb-5">
+        <div class="mt-10 sm:mt-14 pb-5 print:mt-4 print:pb-0">
           <h2 class="mb-3 font-medium text-gray-800 dark:text-neutral-200">
             Education
           </h2>
@@ -512,6 +518,6 @@ definePageMeta({
     </main>
     <!-- ========== END MAIN CONTENT ========== -->
 
-    <AppFooter />
+    <AppFooter class="print:hidden" />
   </div>
 </template>

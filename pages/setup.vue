@@ -128,7 +128,7 @@ definePageMeta({
                     <ul class="space-y-2">
                         <li class="text-sm text-gray-600 dark:text-neutral-400 flex justify-between">
                             <span>Audífonos:</span>
-                            <span class="font-medium text-gray-800 dark:text-neutral-200">Sonos Ace Blanco</span>
+                            <span class="font-medium text-gray-800 dark:text-neutral-200">Sonos Ace White</span>
                         </li>
                         <li class="text-sm text-gray-600 dark:text-neutral-400 flex justify-between">
                             <span>Parlantes:</span>
