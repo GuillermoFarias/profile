@@ -124,159 +124,6 @@ definePageMeta({
         </div>
         <!-- End About -->
 
-        <!-- Skills -->
-        <div class="my-11 print:my-4">
-          <h2 class="mb-2 font-medium text-gray-800 dark:text-neutral-200">
-            Skills
-          </h2>
-
-          <!-- List -->
-          <div class="space-y-3 border-t border-gray-200 dark:border-neutral-700 pt-5">
-            <dl
-              class="flex flex-col sm:flex-row gap-1 border-b border-gray-100 dark:border-neutral-800 pb-2 mb-2 print:border-none print:pb-0 print:mb-0">
-              <dt class="min-w-40 print:w-32 print:shrink-0">
-                <span
-                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Backend</span>
-              </dt>
-              <dd class="print:grow">
-                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandPython class="shrink-0 size-5 me-1 print:hidden" />
-                    Python
-                  </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandPhp class="shrink-0 size-5 me-1 print:hidden" />
-                    PHP
-                  </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandJavascript class="shrink-0 size-5 me-1 print:hidden" />
-                    JavaScript
-                  </li>
-                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconTerminal2 class="shrink-0 size-5 me-1 print:hidden" />
-                    Bash
-                  </li>
-                </ul>
-              </dd>
-            </dl>
-
-            <dl
-              class="flex flex-col sm:flex-row gap-1 border-b border-gray-100 dark:border-neutral-800 pb-2 mb-2 print:border-none print:pb-0 print:mb-0">
-              <dt class="min-w-40 print:w-32 print:shrink-0">
-                <span
-                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Frontend</span>
-              </dt>
-              <dd class="print:grow">
-                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandVue class="shrink-0 size-5 me-1 print:hidden" />
-                    Vue
-                  </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandTailwind class="shrink-0 size-5 me-1 print:hidden" />
-                    Tailwind CSS
-                  </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandReact class="shrink-0 size-5 me-1 print:hidden" />
-                    React
-                  </li>
-                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandNuxt class="shrink-0 size-5 me-1 print:hidden" />
-                    Nuxt
-                  </li>
-                </ul>
-              </dd>
-            </dl>
-
-            <dl
-              class="flex flex-col sm:flex-row gap-1 border-b border-gray-100 dark:border-neutral-800 pb-2 mb-2 print:border-none print:pb-0 print:mb-0">
-              <dt class="min-w-40 print:w-32 print:shrink-0">
-                <span
-                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Cloud</span>
-              </dt>
-              <dd class="print:grow">
-                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <Icon name="bx:bxl-google-cloud" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
-                    GCP
-                  </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconBrandAzure class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200 print:hidden" />
-                    Azure
-                  </li>
-                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <Icon name="mdi:aws" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
-                    AWS
-                  </li>
-                </ul>
-              </dd>
-            </dl>
-
-            <dl class="flex flex-col sm:flex-row gap-1 print:border-none print:pb-0 print:mb-0">
-              <dt class="min-w-40 print:w-32 print:shrink-0">
-                <span
-                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Automation</span>
-              </dt>
-              <dd class="print:grow">
-                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <Icon name="simple-icons:argo" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
-                    Argo
-                  </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <Icon name="mdi:terraform" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
-                    Terraform
-                  </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <Icon name="simple-icons:drone" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
-                    Drone
-                  </li>
-                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    <IconPlus class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200 print:hidden" />
-                    More
-                  </li>
-                </ul>
-              </dd>
-              <dd class="print:grow">
-                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    Pipeline design
-                  </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    Workflow automation
-                  </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    continuous integration
-                  </li>
-                  <li
-                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    container orchestration
-                  </li>
-                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-                    Infrastructure as Code
-                  </li>
-                </ul>
-              </dd>
-            </dl>
-          </div>
-          <!-- End List -->
-        </div>
-        <!-- End Skills -->
-
         <!-- Work Experience -->
         <div class="my-11 print:my-4">
           <h2 class="mb-2 font-medium text-gray-800 dark:text-neutral-200">
@@ -459,7 +306,7 @@ definePageMeta({
         <!-- End Work Experience -->
 
         <!-- Education -->
-        <div class="mt-10 sm:mt-14 pb-5 print:mt-4 print:pb-0">
+        <div class="hidden mt-10 sm:mt-14 pb-5 print:mt-4 print:pb-0">
           <h2 class="mb-3 font-medium text-gray-800 dark:text-neutral-200">
             Education
           </h2>
@@ -485,6 +332,159 @@ definePageMeta({
           <!-- End Grid -->
         </div>
         <!-- End Education -->
+
+        <!-- Skills -->
+        <div class="my-11 print:my-4">
+          <h2 class="mb-2 font-medium text-gray-800 dark:text-neutral-200">
+            Skills
+          </h2>
+
+          <!-- List -->
+          <div class="space-y-3 border-t border-gray-200 dark:border-neutral-700 pt-5">
+            <dl
+              class="flex flex-col sm:flex-row gap-1 border-b border-gray-100 dark:border-neutral-800 pb-2 mb-2 print:border-none print:pb-0 print:mb-0">
+              <dt class="min-w-40 print:w-32 print:shrink-0">
+                <span
+                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Backend</span>
+              </dt>
+              <dd class="print:grow">
+                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconBrandPython class="shrink-0 size-5 me-1 print:hidden" />
+                    Python
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconBrandPhp class="shrink-0 size-5 me-1 print:hidden" />
+                    PHP
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconBrandJavascript class="shrink-0 size-5 me-1 print:hidden" />
+                    JavaScript
+                  </li>
+                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconTerminal2 class="shrink-0 size-5 me-1 print:hidden" />
+                    Bash
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <dl
+              class="flex flex-col sm:flex-row gap-1 border-b border-gray-100 dark:border-neutral-800 pb-2 mb-2 print:border-none print:pb-0 print:mb-0">
+              <dt class="min-w-40 print:w-32 print:shrink-0">
+                <span
+                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Frontend</span>
+              </dt>
+              <dd class="print:grow">
+                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconBrandVue class="shrink-0 size-5 me-1 print:hidden" />
+                    Vue
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconBrandTailwind class="shrink-0 size-5 me-1 print:hidden" />
+                    Tailwind CSS
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconBrandReact class="shrink-0 size-5 me-1 print:hidden" />
+                    React
+                  </li>
+                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconBrandNuxt class="shrink-0 size-5 me-1 print:hidden" />
+                    Nuxt
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <dl
+              class="flex flex-col sm:flex-row gap-1 border-b border-gray-100 dark:border-neutral-800 pb-2 mb-2 print:border-none print:pb-0 print:mb-0">
+              <dt class="min-w-40 print:w-32 print:shrink-0">
+                <span
+                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Cloud</span>
+              </dt>
+              <dd class="print:grow">
+                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="bx:bxl-google-cloud" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
+                    GCP
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconBrandAzure class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200 print:hidden" />
+                    Azure
+                  </li>
+                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="mdi:aws" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
+                    AWS
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <dl class="flex flex-col sm:flex-row gap-1 print:border-none print:pb-0 print:mb-0">
+              <dt class="min-w-40 print:w-32 print:shrink-0">
+                <span
+                  class="block text-sm text-gray-500 dark:text-neutral-500 font-semibold print:text-gray-800">Automation</span>
+              </dt>
+              <dd class="print:grow">
+                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="simple-icons:argo" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
+                    Argo
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="mdi:terraform" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
+                    Terraform
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <Icon name="simple-icons:drone" class="shrink-0 text-[20px] me-1 text-gray print:hidden" />
+                    Drone
+                  </li>
+                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    <IconPlus class="shrink-0 size-5 me-1 text-gray-800 dark:text-neutral-200 print:hidden" />
+                    More
+                  </li>
+                </ul>
+              </dd>
+              <dd class="print:grow">
+                <ul class="flex flex-wrap gap-x-1 print:gap-x-1">
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Pipeline design
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Workflow automation
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    continuous integration
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    container orchestration
+                  </li>
+                  <li class="me-1 inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Infrastructure as Code
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+          <!-- End List -->
+        </div>
+        <!-- End Skills -->
       </div>
     </main>
     <!-- ========== END MAIN CONTENT ========== -->
