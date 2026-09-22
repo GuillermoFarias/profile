@@ -84,6 +84,12 @@ definePageMeta({
           </p>
 
           <p class="mt-3 text-sm text-gray-600 dark:text-neutral-400">
+            También trabajo como consultor en infraestructura y arquitectura
+            de software. Me gusta diseñar sistemas escalables y de alto flujo,
+            de esos que aguantan millones de usuarios sin despeinarse.
+          </p>
+
+          <p class="mt-3 text-sm text-gray-600 dark:text-neutral-400">
             En lo técnico, me muevo con soltura en backend, soy amigo del
             frontend y entusiasta del mundo DevOps.
           </p>
