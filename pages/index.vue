@@ -58,7 +58,7 @@ definePageMeta({
               Guillermo Farías
             </h1>
             <p class="text-xl text-gray-600 dark:text-neutral-400 dark:gradient-dark">
-              Senior Software Engineer
+              Senior Software Engineer & FDE
             </p>
           </div>
         </div>
@@ -67,18 +67,25 @@ definePageMeta({
         <!-- About -->
         <div class="mt-8 print:mt-4">
           <p class="text-sm text-gray-600 dark:text-neutral-400">
-            Especialista en backend con más de 10 años de experiencia, amigo del
-            frontend y entusiasta del mundo DevOps. Me apasiona crear soluciones
-            que realmente aporten valor y trabajar en equipos donde la
-            colaboración marca la diferencia.
+            Ingeniero de software con más de 10 años de experiencia. Hoy trabajo
+            como Forward Deployed Engineer (FDE), de cara al cliente, llevando
+            soluciones desde la conversación de negocio hasta la implementación
+            en producción. Me especializo en integrar clientes grandes como
+            Walmart, Ransa y VTEX a lo largo de toda Latinoamérica, entendiendo
+            sus procesos críticos y diseñando arquitecturas que realmente
+            resuelven sus necesidades.
           </p>
 
           <p class="mt-3 text-sm text-gray-600 dark:text-neutral-400">
-            Trabajo de forma remota en <a href="https://simpliroute.com" target="_blank" rel="noopener noreferrer">SimpliRoute</a>, empresa de software
-            logístico con presencia global. Me especializo en el desarrollo
-            de integraciones backend, conectando plataformas heterogéneas
-            (ERPs, WMS, e-commerce) para optimizar procesos críticos de
-            negocio.
+            Actualmente en <a href="https://simpliroute.com" target="_blank" rel="noopener noreferrer">SimpliRoute</a>, empresa de software
+            logístico con presencia global, lidero integraciones de alta
+            demanda conectando plataformas heterogéneas (ERPs, WMS, e-commerce)
+            para optimizar la operación de grandes corporaciones.
+          </p>
+
+          <p class="mt-3 text-sm text-gray-600 dark:text-neutral-400">
+            En lo técnico, me muevo con soltura en backend, soy amigo del
+            frontend y entusiasta del mundo DevOps.
           </p>
 
           <div class="mt-4 print:hidden">
@@ -446,42 +453,6 @@ definePageMeta({
             </div>
             <!-- End Item -->
 
-            <!-- Item -->
-            <div class="group relative flex gap-x-5">
-              <!-- Icon -->
-              <div
-                class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
-                <span
-                  class="inline-flex items-center justify-center size-8 text-xs font-semibold rounded-full border border-gray-800 text-gray-800 dark:border-neutral-200 dark:text-white">
-                  IN
-                </span>
-              </div>
-              <!-- End Icon -->
-
-              <!-- Right Content -->
-              <div class="grow pb-8 group-last:pb-0">
-                <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
-                  2016 - 2018
-                </h3>
-
-                <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
-                  Software Engineer at Inpact
-                </p>
-
-                <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
-                  Mi primer trabajo como desarrollador de software después de
-                  obtener mi título.
-                </p>
-
-                <p class="mt-2 text-sm text-gray-600 dark:text-neutral-400">
-                  Trabajé en proyectos de backoffice para clientes bancarios.
-                  Automatización de procesos de gestión documental y flujos de
-                  trabajo.
-                </p>
-              </div>
-              <!-- End Right Content -->
-            </div>
-            <!-- End Item -->
           </div>
           <!-- End Timeline -->
         </div>
